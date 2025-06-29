@@ -4,6 +4,8 @@ import HeroSection from "./components/HeroSection.jsx";
 import Benefits from "./components/Benefits.jsx";
 import Collaboration from "./components/Collaboration.jsx";
 import Services from "../Services.jsx";
+import PricingSection from "./components/PricingSection.jsx";
+import Roadmap from "./components/Roadmap.jsx";
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
             <Benefits/>
             <Collaboration/>
             <Services/>
+            <PricingSection/>
+            <Roadmap/>
         </div>
         <ButtonGradient/>
     </>
