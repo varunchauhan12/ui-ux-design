@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import HeroSection from "./components/HeroSection.jsx";
 import Benefits from "./components/Benefits.jsx";
 import Collaboration from "./components/Collaboration.jsx";
+import Services from "../Services.jsx";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <HeroSection/>
             <Benefits/>
             <Collaboration/>
+            <Services/>
         </div>
         <ButtonGradient/>
     </>
